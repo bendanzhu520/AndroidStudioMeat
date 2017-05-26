@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/check_internet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="请检查你的网络"
+        android:textSize="12dp"
+        android:gravity="top|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"/>
+
+    <com.wuxiaolong.pullloadmorerecyclerview.PullLoadMoreRecyclerView
+        android:id="@+id/wishcyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/moveto_top"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/uparrow_yellow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/backto_privateletter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#e62524">
+        
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/leftarrow_white"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="返回"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/share_wish_title"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:text="评论我的"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/private_share_wish_rect">
+
+        <TextView
+            android:id="@+id/privatedetail_share_btn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:text="分享"
+            android:textColor="#787878"
+            android:layout_marginLeft="2dp"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:background="@drawable/private_share_wish_btn"/>
+
+        <TextView
+            android:id="@+id/privatedetail_wish_btn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:text="心愿"
+            android:textColor="#787878"
+            android:gravity="center"
+            android:layout_marginRight="2dp"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:text="切，老子就不显示"/>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/application_registration_popwindow"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/application_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="申请该分享需要消耗1积分，您确定要申请吗？"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000000"
+            android:textSize="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/application_cacel_btn"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:text="取消"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:background="#bfbfbf"/>
+
+            <Button
+                android:id="@+id/application_sure_btn"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp"
+                android:text="确定"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:background="#f11e1e"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

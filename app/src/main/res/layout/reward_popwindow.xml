@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:alpha="0.6"/>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@drawable/reward_popwindow">
+
+        <TextView
+            android:id="@+id/popcancel"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fork_grey"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/head"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text="有肉"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.00"
+                android:textSize="14dp"
+                android:textColor="#ffc400"/>
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/pencil_blue"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/makesure_reward"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:text="打赏"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="12dp"
+            android:layout_gravity="center"
+            android:background="@drawable/reward_popwindow_btn"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
