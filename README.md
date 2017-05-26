@@ -6,8 +6,8 @@ git config --global user.email "admin@example.com"
 
 Create a new repository
 
-git clone ssh://git@localhost:18083/meihuan/AndroidStudioMeat.git
-git clone http://localhost:18081/meihuan/AndroidStudioMeat.git
+git clone ssh://git@171.221.254.214:18083/meihuan/AndroidStudioMeat.git
+git clone http://171.221.254.214:18081/meihuan/AndroidStudioMeat.git
 cd AndroidStudioMeat
 touch README.md
 git add README.md
@@ -18,8 +18,8 @@ Existing folder or Git repository
 
 cd existing_folder
 git init
-git remote add origin ssh://git@localhost:18083/meihuan/AndroidStudioMeat.git
-git remote add origin http://localhost:18081/meihuan/AndroidStudioMeat.git
+git remote add origin ssh://git@171.221.254.214:18083/meihuan/AndroidStudioMeat.git
+git remote add origin http://171.221.254.214:18081/meihuan/AndroidStudioMeat.git
 git add .
 git commit
 git push -u origin master
